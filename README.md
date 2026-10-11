@@ -57,7 +57,6 @@ Nmap done: 1 human scanned — 0 excuses found
   <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white" alt="Nmap"/>
   <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white" alt="Metasploit"/>
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
-  <img src="https://img.shields.io/badge/Gobuster-161b22?style=for-the-badge&logoColor=white" alt="Gobuster"/>
   <img src="https://img.shields.io/badge/Hydra-B22222?style=for-the-badge&logoColor=white" alt="Hydra"/>
 </p>
 
