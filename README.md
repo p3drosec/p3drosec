@@ -16,7 +16,6 @@ Soy **Técnico Superior en Administración de Sistemas Informáticos en Red (ASI
 
 Ahora estoy dando el salto a la **ciberseguridad**: curso el **Máster Internacional en Ciberseguridad (UCAM)** y entreno a diario en mi propio laboratorio y en plataformas de hacking ético.
 
-> 💡 **Mi ventaja:** antes de aprender a romper sistemas, aprendí a construirlos. Sé cómo funciona por dentro la infraestructura que hay que proteger.
 
 ---
 
