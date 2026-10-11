@@ -14,7 +14,7 @@
 
 Soy **Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR)**. Vengo de montar servidores, configurar redes, gestionar usuarios y permisos y mantener servicios en pie.
 
-Ahora estoy dando el salto a la **ciberseguridad**: curso el **Máster Internacional en Ciberseguridad (UCAM)** y entreno a diario en mi propio laboratorio y en plataformas de hacking ético.
+Ahora estoy dando el salto a la **ciberseguridad**, curso el **Máster Internacional en Ciberseguridad (UCAM)** y entreno a diario en mi propio laboratorio y en plataformas de hacking ético.
 
 
 ---
