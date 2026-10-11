@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Terminal: p3drosec - Pedro Fernández, administrador de sistemas en red especializándose en ciberseguridad">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 426" width="900" height="426" role="img" aria-label="Terminal: p3drosec - Pedro Fernández, Técnico Superior en ASIR, Administrador de Sistemas Informáticos en Red especializándose en Ciberseguridad">
   <title>p3drosec — terminal</title>
   <style>
     .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; font-size: 17px; }
@@ -36,7 +36,7 @@
   </style>
 
   <!-- Ventana -->
-  <rect class="frame" x="1" y="1" width="898" height="398" rx="12"/>
+  <rect class="frame" x="1" y="1" width="898" height="424" rx="12"/>
   <path class="bar" d="M2 13 a11 11 0 0 1 11 -11 h874 a11 11 0 0 1 11 11 v23 h-896 z"/>
   <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
   <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
@@ -60,7 +60,10 @@
       <text class="user" x="50" y="192">$</text>
     </g>
     <text class="cmd t" x="68" y="192" style="animation-delay:2.4s; animation-duration:.9s">cat rol.txt</text>
-    <text class="out l" x="30" y="220" style="animation-delay:3.5s">SysAdmin de sistemas en red <tspan class="acc">»</tspan> especializándome en <tspan class="ok">Ciberseguridad</tspan></text>
+    <text class="out l" x="30" y="220" style="animation-delay:3.4s">Técnico Superior en ASIR <tspan class="dim">·</tspan> <tspan class="path">Administrador de Sistemas Informáticos en Red</tspan></text>
+    <text class="out l" x="30" y="246" style="animation-delay:3.9s"><tspan class="acc">»</tspan> Especializándome en <tspan class="ok">Ciberseguridad</tspan> <tspan class="dim">·</tspan> pentesting y defensa de sistemas</text>
+
+    <g transform="translate(0 26)">
 
     <!-- Prompt 3: mision -->
     <g class="l" style="animation-delay:4.2s">
@@ -80,7 +83,8 @@
     </g>
     <rect class="p-on grow" x="290" y="371" width="156" height="16" rx="3"/>
     <text class="dim l" x="562" y="384" style="animation-delay:10.4s">60% · en progreso</text>
+    </g>
   </g>
 
-  <rect class="cursor" x="752" y="370" width="10" height="18"/>
+  <g transform="translate(0 26)"><rect class="cursor" x="752" y="370" width="10" height="18"/></g>
 </svg>
