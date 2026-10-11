@@ -111,15 +111,6 @@ flowchart LR
 
 ---
 
-## `> ls -la ~/proyectos/`
-
-| Proyecto | Qué es | Estado |
-| :--- | :--- | :---: |
-| 🧪 **homelab** | Mi laboratorio de ciberseguridad documentado: red, máquinas y escenarios | 🚧 En construcción |
-| 🚩 **tryhackme-writeups** | Resoluciones explicadas paso a paso: el *qué* y sobre todo el *porqué* | 🚧 En construcción |
-| 🐍 **security-scripts** | Herramientas propias en Python y Bash: escáner de puertos, análisis de logs, hardening | 🚧 En construcción |
-| 📚 **cybersecurity-notes** | Mis apuntes de ciberseguridad: fundamentos, criptografía, metodologías | 🚧 En construcción |
-
 <!--
 ## `> ./contacto.sh`
 
