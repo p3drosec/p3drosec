@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Terminal: p3drosec - Pedro Fernández, administrador de sistemas en red especializándose en ciberseguridad">
+  <title>p3drosec — terminal</title>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; font-size: 17px; }
+    .frame { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .bar   { fill: #161b22; }
+    .wtitle{ fill: #8b949e; font-size: 13px; }
+    .box   { fill: #2f81f7; }
+    .line  { stroke: #2f81f7; stroke-width: 2; fill: none; }
+    .user  { fill: #3fb950; font-weight: 700; }
+    .path  { fill: #e6edf3; font-weight: 700; }
+    .cmd   { fill: #e6edf3; }
+    .out   { fill: #c9d1d9; }
+    .big   { fill: #3fb950; font-size: 28px; font-weight: 700; }
+    .acc   { fill: #f85149; font-weight: 700; }
+    .ok    { fill: #3fb950; font-weight: 700; }
+    .dim   { fill: #8b949e; }
+    .p-on  { fill: #3fb950; }
+    .p-off { fill: #30363d; }
+
+    .l { opacity: 0; animation: show .01s forwards; }
+    .t { clip-path: inset(0 100% 0 0); animation: type 1s steps(14, end) forwards; }
+    .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 2.4s 8s ease-out forwards; }
+
+    @keyframes show  { to { opacity: 1; } }
+    @keyframes type  { to { clip-path: inset(0 0 0 0); } }
+    @keyframes grow  { to { transform: scaleX(1); } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+    .cursor { fill: #3fb950; opacity: 0; animation: show .01s 9s forwards, blink 1s 9s step-end infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .l, .t, .grow { animation: none; opacity: 1; clip-path: none; transform: none; }
+      .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <!-- Ventana -->
+  <rect class="frame" x="1" y="1" width="898" height="398" rx="12"/>
+  <path class="bar" d="M2 13 a11 11 0 0 1 11 -11 h874 a11 11 0 0 1 11 11 v23 h-896 z"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="19" r="6" fill="#27c93f"/>
+  <text class="mono wtitle" x="450" y="24" text-anchor="middle">p3drosec@kali: ~</text>
+
+  <g class="mono">
+    <!-- Prompt 1: whoami -->
+    <g class="l" style="animation-delay:.3s">
+      <path class="line" d="M30 66 h16 M30 66 v22 h16"/>
+      <text x="50" y="72"><tspan class="box">(</tspan><tspan class="user">p3drosec@kali</tspan><tspan class="box">)-[</tspan><tspan class="path">~</tspan><tspan class="box">]</tspan></text>
+      <text class="user" x="50" y="94">$</text>
+    </g>
+    <text class="cmd t" x="68" y="94" style="animation-delay:.6s; animation-duration:.7s">whoami</text>
+    <text class="big l" x="30" y="132" style="animation-delay:1.5s">Pedro Fernández</text>
+
+    <!-- Prompt 2: rol -->
+    <g class="l" style="animation-delay:2.1s">
+      <path class="line" d="M30 164 h16 M30 164 v22 h16"/>
+      <text x="50" y="170"><tspan class="box">(</tspan><tspan class="user">p3drosec@kali</tspan><tspan class="box">)-[</tspan><tspan class="path">~</tspan><tspan class="box">]</tspan></text>
+      <text class="user" x="50" y="192">$</text>
+    </g>
+    <text class="cmd t" x="68" y="192" style="animation-delay:2.4s; animation-duration:.9s">cat rol.txt</text>
+    <text class="out l" x="30" y="220" style="animation-delay:3.5s">SysAdmin de sistemas en red <tspan class="acc">»</tspan> especializándome en <tspan class="ok">Ciberseguridad</tspan></text>
+
+    <!-- Prompt 3: mision -->
+    <g class="l" style="animation-delay:4.2s">
+      <path class="line" d="M30 252 h16 M30 252 v22 h16"/>
+      <text x="50" y="258"><tspan class="box">(</tspan><tspan class="user">p3drosec@kali</tspan><tspan class="box">)-[</tspan><tspan class="path">~</tspan><tspan class="box">]</tspan></text>
+      <text class="user" x="50" y="280">$</text>
+    </g>
+    <text class="cmd t" x="68" y="280" style="animation-delay:4.5s; animation-duration:1s">./mision.sh</text>
+    <text class="out l" x="30" y="308" style="animation-delay:5.7s"><tspan class="ok">[+]</tspan> Entender los sistemas.</text>
+    <text class="out l" x="30" y="332" style="animation-delay:6.4s"><tspan class="ok">[+]</tspan> Atacarlos de forma ética.</text>
+    <text class="out l" x="30" y="356" style="animation-delay:7.1s"><tspan class="ok">[+]</tspan> Protegerlos.</text>
+
+    <!-- Barra de carga -->
+    <g class="l" style="animation-delay:7.8s">
+      <text class="dim" x="30" y="384">[*] cargando experiencia</text>
+      <rect class="p-off" x="290" y="371" width="260" height="16" rx="3"/>
+    </g>
+    <rect class="p-on grow" x="290" y="371" width="156" height="16" rx="3"/>
+    <text class="dim l" x="562" y="384" style="animation-delay:10.4s">60% · en progreso</text>
+  </g>
+
+  <rect class="cursor" x="752" y="370" width="10" height="18"/>
+</svg>
