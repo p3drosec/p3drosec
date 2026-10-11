@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍_Cádiz-España-0d1117?style=flat-square&labelColor=161b22" alt="Cádiz, España"/>
+  <img src="https://img.shields.io/badge/📍_Jaén-España-0d1117?style=flat-square&labelColor=161b22" alt="Cádiz, España"/>
   <img src="https://img.shields.io/badge/🎓_Máster-Ciberseguridad_UCAM-0d1117?style=flat-square&labelColor=161b22" alt="Máster en Ciberseguridad UCAM"/>
   <img src="https://img.shields.io/badge/⚡_Estado-Open_to_work-3fb950?style=flat-square&labelColor=161b22" alt="Open to work"/>
 </p>
