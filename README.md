@@ -1,13 +1,21 @@
 <p align="center">
-  <img src="assets/terminal.svg" alt="p3drosec — Pedro Fernández · Administrador de Sistemas Informáticos en Red especializándose en Ciberseguridad" width="100%"/>
+  <img src="assets/terminal.svg" alt="p3drosec — Pedro Fernández · SysAdmin especializándose en Ciberseguridad" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🖥️_Administrador_de-Sistemas_en_Red-0d1117?style=flat-square&labelColor=161b22" alt="Administrador de Sistemas en Red"/>
-  <img src="https://img.shields.io/badge/📍_Jaén-España-0d1117?style=flat-square&labelColor=161b22" alt="Jaén, España"/>
+  <img src="https://img.shields.io/badge/📍_Jaén-España-0d1117?style=flat-square&labelColor=161b22" alt="Cádiz, España"/>
   <img src="https://img.shields.io/badge/🎓_Máster-Ciberseguridad_UCAM-0d1117?style=flat-square&labelColor=161b22" alt="Máster en Ciberseguridad UCAM"/>
-  <img src="https://img.shields.io/badge/⚡_Estado-Disponible_para_trabajar-3fb950?style=flat-square&labelColor=161b22" alt="Disponible para trabajar"/>
+  <img src="https://img.shields.io/badge/⚡_Estado-Open_to_work-3fb950?style=flat-square&labelColor=161b22" alt="Open to work"/>
 </p>
+
+---
+
+## `> cat sobre_mi.md`
+
+Soy **Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR)**. Vengo de montar servidores, configurar redes, gestionar usuarios y permisos y mantener servicios en pie.
+
+Ahora estoy dando el salto a la **ciberseguridad**: curso el **Máster Internacional en Ciberseguridad (UCAM)** y entreno a diario en mi propio laboratorio y en plataformas de hacking ético.
+
 
 ---
 
@@ -71,21 +79,11 @@ Nmap done: 1 human scanned — 0 excuses found
 
 ---
 
-## `> cat formacion.txt`
-
-| | Formación | Centro | Estado |
-| :---: | :--- | :--- | :---: |
-| 🎓 | **Máster Internacional en Ciberseguridad** | UCAM · Universidad Católica de Murcia | 🟦 En curso · 2026 – 2027 |
-| 📘 | **Curso Pre-Máster en Ciberseguridad** <sub>(200 h · 10 módulos)</sub> | UCAM | 🟦 En curso |
-| 🖥️ | **Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR)** | Ciclo Formativo de Grado Superior | ✅ Titulado |
-
----
-
 ## `> ./roadmap.sh`
 
 ```mermaid
 flowchart LR
-    A["🖥️ ASIR<br/>Administrador de Sistemas"]:::done --> B["🎓 Máster<br/>Ciberseguridad UCAM"]:::now
+    A["🖥️ ASIR<br/>SysAdmin"]:::done --> B["🎓 Máster<br/>Ciberseguridad UCAM"]:::now
     B --> C["🛡️ CompTIA<br/>Security+"]:::next
     C --> D["⚔️ eJPTv2<br/>Junior Pentester"]:::next
     D --> E["💀 OSCP<br/>Offensive Security"]:::goal
