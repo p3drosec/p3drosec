@@ -16,30 +16,6 @@ Soy **Técnico Superior en Administración de Sistemas Informáticos en Red (ASI
 
 Ahora estoy dando el salto a la **ciberseguridad**, curso el **Máster Internacional en Ciberseguridad (UCAM)** y entreno a diario en mi propio laboratorio y en plataformas de hacking ético.
 
-
----
-
-## `> nmap -sV p3drosec`
-
-```text
-Starting Nmap scan on p3drosec ( github.com/p3drosec )
-Nmap scan report for Pedro Fernández
-Host is up, learning fast.
-
-PORT       STATE   SERVICE            VERSION
-22/tcp     open    linux-sysadmin     Debian / Ubuntu · servicios, usuarios, permisos
-53/tcp     open    networking         TCP/IP · DNS · DHCP · subnetting · VLAN
-80/tcp     open    web-stack          Apache · PHP · MySQL
-389/tcp    open    windows-server     Active Directory · GPO · dominios
-1337/tcp   open    ethical-hacking    Kali Linux · reconocimiento · explotación   [training]
-3306/tcp   open    databases          MySQL · SQL
-8080/tcp   open    scripting          Python · Bash · automatización
-9999/tcp   open    blue-team          análisis de tráfico · logs · hardening        [training]
-
-Service Info: OS: Linux / Windows · Mindset: curioso, constante, autodidacta
-Nmap done: 1 human scanned — 0 excuses found
-```
-
 ---
 
 ## `> ls ~/arsenal/`
